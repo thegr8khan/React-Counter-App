@@ -2,7 +2,8 @@ function Counter() {
   const [count, setCount] = React.useState(0);
 
   return (
-    <div>
+    <div className="Counter">
+      Counter
     </div>
   );
 }
